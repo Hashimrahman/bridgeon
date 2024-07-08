@@ -1,0 +1,473 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    
+    /* margin: 2rem; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+h1,h2,h3,h4,h4,h6,p{
+    opacity: 0.4;
+    color: rgb(4, 0, 59);
+}
+
+ol{
+    list-style-type: none;
+}
+
+
+.heading{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.5rem; ;
+    /* position: fixed; */
+}
+
+.heading-logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.heading-logo img{
+    height: 3rem;
+    width: 10rem;
+}
+
+.heading-name{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* font-size: xx-large; */
+}
+
+.heading-name li{
+    list-style-type: none;
+}
+ /* ========================================================================= */
+
+#mainback{
+    width: 99%;
+    height: 50%;
+    position: absolute;
+    top: 6rem;
+    z-index: -4;
+    opacity: 1;
+    margin: 0;
+}
+
+ .intro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.intro-text{
+    width: 50%;
+    margin-right: 5rem;
+    margin-left: 10rem;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.intro-text h1{
+    line-height: 1.8;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    font-size: xx-large;
+    opacity: 1 !important;
+    color: white !important;
+}
+
+.intro-text p{
+    color: #ffffff !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+
+.intro-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 30px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 4rem;
+
+}
+
+.intro-info-sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.2 !important;
+}
+
+.intro-info-sub img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.5rem;
+    opacity: 0.5;
+}
+
+.intro-form{
+    width: 50%;
+    transform: translateY(100px);
+    background-color: white;
+    box-shadow: 10px 10px 30px;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-right: 5rem;
+    margin-left: 4rem;
+    
+}
+.intro-form input{
+    width: 60%;
+    height: 2rem;
+    padding: 0.5rem;
+    background-color:black ;
+    border-radius: 0.5rem;
+    box-shadow: none !important;
+    border: 0px;
+    font-size: medium;
+    margin: 0.5rem;
+    color: white;
+}
+
+
+.intro-form button{
+    width: 30%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    background-color: red;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0px;
+    font-size: medium;
+}
+
+.intro-form h4{
+    margin: 0.5rem;
+}
+
+/* ========================================================================= */
+
+.approach{
+    line-height: 0.5;
+    text-align: center;
+}
+
+.approach h1{
+    font-size: xx-large;
+    opacity: 0.5;
+}
+
+.approach h4{
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.approach-content{
+    display: flex;
+    justify-content: space-around;
+    line-height: 1 ;
+}
+
+.approach-inner1, .approach-inner2{
+    display: flex;
+    line-height: 1 ;
+    text-align: left;
+}
+
+.approach-inner2{
+    align-items: center;
+}
+
+.approach-inner1{
+    margin: 1rem;
+}
+
+.approach-inner3{
+    
+    margin-left: 1rem;
+}
+
+.approach-inner2 h3{
+    font-size: x-large;
+    margin-left: 0.5rem;
+}
+
+.approach-inner2 img{
+    width: 1.8rem;
+    height: 1.8rem;
+    opacity: 0.5;
+}
+
+
+.approach-inner3 img{
+    width: 1.8rem;
+    height: 1.8rem;
+    opacity: 0.5;
+}
+
+.approach p{
+    text-align: left !important;
+    line-height: 1.5;
+    width: 85%;
+}
+
+.approach-content span{
+    color: rgb(255, 0, 0); 
+    font-weight: bold; 
+    opacity: 1 !important;
+}
+/* ========================================================================= */
+
+
+
+.about{
+    margin: 4rem;
+    font-size: large;
+    text-align: justify;
+}
+
+.about-para h2{
+    text-align: left;
+    font-size: xx-large;
+    opacity: 0.5;
+}
+
+.about-para{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-para-content{
+    margin: 0.5rem;
+}
+
+.features{
+    display: flex;
+}
+
+.para{
+    /* font-size: larger; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    opacity: 1 !important;
+    width: 85%;
+}
+
+.about-para li{
+    opacity: 0.5;
+    line-height: 3;
+    list-style-type: none;
+}
+
+ /* ========================================================================= */
+
+
+.courses-main h2{
+    text-align: center;
+    font-size: xx-large;
+    opacity: 0.8;
+    line-height: 0.5;
+}
+.courses-main h4{
+    text-align: center;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.course-content{
+    text-align: justify;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color:rgb(42, 42, 42) ;
+    padding: 1.5rem;
+    
+}
+.course-content p,h3{
+    opacity: 0.8 !important;
+    color: rgb(211, 211, 211);
+}
+
+.course-content img{
+    /* width: 100%; */
+    border-radius: 5px;
+}
+
+.course-button{
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+}
+
+.course-button button{
+    width: 14rem;
+    height: 2.6rem;
+    background-color: rgb(255, 0, 0, 0.6);
+    margin-bottom: 10px;
+    border: 0;
+    /* border-radius: 0.3rem; */
+    color: white;
+}
+
+ /* ========================================================================= */
+
+.alumni{
+    background-color: #f7f7f7;
+    margin: 0 !important;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.alumni-details{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left !important;
+    
+}
+
+.alumni-card{
+    position: relative;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.8rem;
+}
+
+
+.alumni-card img{
+    width: 100%;
+    background-image: url('bg.png');
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+.name{
+    position: absolute;
+  bottom: 145px;
+  background-image: linear-gradient(to right, red, rgba(255, 255, 0, 0));
+  width: 100%;
+  text-align: left;
+  padding: 0.4rem;
+  height: 1.5rem;
+  font-size: larger;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.alumni-card h4,p{
+    margin-left: 1rem;
+}
+
+.alumni h4{
+    opacity: 0.7;
+    line-height: 0.1;
+}
+.alumni p{
+    line-height: 0.1;
+}
+
+#qualification{
+    opacity: 0.7 !important;
+    line-height: 2;
+}
+
+
+ /* ========================================================================= */
+
+.intern{
+    background-color: #e1e8f9;
+    margin: 0 !important;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.intern h1,h4{
+    line-height: 0.3;
+}
+
+.intern h1{
+    opacity: 0.3;
+}
+
+.intern h4{
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.intern-details{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left !important;
+    
+}
+
+.intern-card{
+    position: relative;
+    width: 20%;
+    background-color: #cbd5e1;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.intern-name{
+   
+  text-align: center;
+  height: 1.5rem;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+}
+
+.intern-card h4,p{
+    /* margin-left: 1rem; */
+    
+}
+
+
+
+.intern-card img{
+    
+    width: 50%;
+    background-image: url('bg.png');
+    border-radius: 50%;
+    /* transform: scale(0.6); */
+}
+.intern p{
+    line-height: 0.1;
+}
+
+#message{
+    margin: 1rem;
+    line-height: 2;
+}
+
+ /* ========================================================================= */
+
+
